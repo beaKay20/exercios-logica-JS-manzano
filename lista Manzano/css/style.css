@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background: linear-gradient(135deg, #f511a9, #001c8e);
+    display: flex;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: #4a86df;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+button:hover {
+    filter: drop-shadow(0 0 2em #c17bedfc);
+}
